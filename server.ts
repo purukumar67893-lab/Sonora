@@ -480,7 +480,7 @@ async function createApp() {
   app.use(express.json());
 
   app.get('/api/health', (_req, res) => {
-    res.json({ ok: true, service: 'sonora-ytmusic-api' });
+    res.json({ ok: true, service: 'zyvoramusic-ytmusic-api' });
   });
 
   // 1. Home Feed (enriched with Explore + Phonk & Drift live tracks)
@@ -1235,7 +1235,7 @@ async function createApp() {
   }
 
   app.listen(PORT, '0.0.0.0', () => {
-    console.log(`Sonora music server listening on http://0.0.0.0:${PORT}`);
+    console.log(`ZYVORAMusic server listening on http://0.0.0.0:${PORT}`);
   });
 }
 

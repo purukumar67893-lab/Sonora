@@ -164,7 +164,7 @@ export function HomeView({
       <section className="relative rounded-2xl overflow-hidden border border-white/[0.08] bg-[#141418] min-h-[240px] flex items-end">
         <img
           src={STUDIO_ASSETS.heroListeningRoom}
-          alt="Sonora listening room"
+          alt="ZYVORAMusic listening room"
           className="absolute inset-0 w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-[#0B0B0E] via-[#0B0B0E]/75 to-black/30" />

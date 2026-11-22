@@ -16,7 +16,7 @@ class AppErrorBoundary extends Component<{ children: ReactNode }, ErrorBoundaryS
   }
 
   componentDidCatch(error: Error, info: ErrorInfo) {
-    console.error('Sonora render error:', error, info);
+    console.error('ZYVORAMusic render error:', error, info);
   }
 
   render() {
@@ -31,7 +31,7 @@ class AppErrorBoundary extends Component<{ children: ReactNode }, ErrorBoundaryS
               onClick={() => window.location.reload()}
               className="px-4 py-2 rounded-lg bg-[#FF2D55] hover:bg-[#E12248] text-white text-sm font-semibold"
             >
-              Reload Sonora
+              Reload ZYVORAMusic
             </button>
           </div>
         </div>

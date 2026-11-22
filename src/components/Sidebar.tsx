@@ -62,7 +62,7 @@ export function Sidebar({
             </svg>
           </span>
           <span className="font-display text-lg font-bold tracking-tight text-white whitespace-nowrap">
-            Sonora
+            ZYVORAMusic
           </span>
         </button>
 
